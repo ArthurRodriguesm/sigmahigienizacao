@@ -1,0 +1,15 @@
+@import "../css/fonts.css";
+@import "../css/about.css";
+@import "../css/carrouselimages.css";
+@import "../css/presentation.css";
+@import "../css/icons.css";
+@import "../css/social-media.css";
+@import "../css/footer.css";
+
+*{
+    font-family: 'Nunito', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Nunito';
+    font-weight: bold;
+}

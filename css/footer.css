@@ -1,0 +1,27 @@
+.footer{
+    background-image: linear-gradient(-65deg, #59b4d8, #3496bd, #2c7694, #226681);
+    color: #fff;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .row{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footer > .row > .col > p{
+    text-align: center;
+}
+.footer > .row > .col a{
+    text-decoration: none;
+}
+.footer > .row > .icon-media{
+    display: flex;
+    text-align: center;
+}
+.footer > .row > .col > a > img{
+    width: 38px;
+    height: 38px;
+    margin: 10px;
+}
