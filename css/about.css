@@ -5,6 +5,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+    margin-top: -40px;
 }
 #about p{
     text-align: center;
@@ -14,4 +15,13 @@
     color: #fff;
     background-color: #000000bd;
     padding: 15px;
+}
+
+@media only screen and (max-width: 968px){
+    #about {
+        height: 100vh;
+    }
+    #about p{
+        height: 20vh;
+    }
 }
