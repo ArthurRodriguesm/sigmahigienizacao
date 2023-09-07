@@ -1,0 +1,59 @@
+.services-images{
+    margin-top: -10px;
+}
+.services-images .row{
+    position: relative;
+}
+.services-images .row .img {
+    position: relative;
+}
+.services-images .img-1{
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/sofa.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.services-images .img-2{
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/cadeira.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.services-images .img-3{
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/carpete.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.services-images .img-4{
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/bancocarro.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.services-images .img > span{
+    background-color: #000000a8;
+    color: #fff;
+    font-size: 2em;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    height: 400px;
+    line-height: 400px;
+}
+
+@media only screen and (min-width: 768px){
+    .services-images .img > span{
+        display: none;
+    }
+    .services-images .img:hover > span{
+        display: block;
+        transition: 1s;
+        cursor: pointer;
+    }
+}
